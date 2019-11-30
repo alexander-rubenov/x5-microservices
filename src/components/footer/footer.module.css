@@ -41,9 +41,14 @@ p{
 
 
 
-i{
-    font-size: 150%;
+.society img{
+    width: 25px;
     margin-left: 20px;
+    padding-top: 10px;
+}
+
+.society img:first-child {
+    width: 10px;
 }
 
 .society{
