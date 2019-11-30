@@ -1,0 +1,7 @@
+.field input {
+    width: 400px;
+    height: 35px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    padding-left: 10px;
+}
