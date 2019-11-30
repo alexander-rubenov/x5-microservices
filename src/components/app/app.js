@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../header'
 
 function App() {
   return (
-    <div>x5-microservices</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 
