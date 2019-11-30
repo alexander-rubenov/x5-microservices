@@ -8,9 +8,9 @@ import Footer from '../footer'
 const App = () => {
   return (
     <Provider store={store}>
-        <Header />
-        <ContentWrapper />
-        <Footer />
+      <Header />
+      <ContentWrapper />
+      <Footer />
     </Provider>
   )
 }

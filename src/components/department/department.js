@@ -6,7 +6,7 @@ const Department = (props) => {
 
   return (
     <li className={styles.department}>
-      <img className={styles.image} src={department.iconPath} />
+      <img className={styles.image} src={department.iconPath} alt='Изображение не поддерживается' />
       <h3 className={styles.title}>{department.name}</h3>
     </li>
   )

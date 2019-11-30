@@ -29,10 +29,10 @@ const Footer = () => {
       <div className={`${styles.block} ${styles.block3}`}>
         <ul>
           <h3>Сайт</h3>
-          <li><a href="#">О компании</a></li>
-          <li><a href="#">Партнерам</a></li>
-          <li><a href="#">Инвесторам</a></li>
-          <li><a href="#">Пресс-центр</a></li>
+          <li><span>О компании</span></li>
+          <li><span>Партнерам</span></li>
+          <li><span>Инвесторам</span></li>
+          <li><span>Пресс-центр</span></li>
 
         </ul>
       </div>
