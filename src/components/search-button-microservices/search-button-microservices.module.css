@@ -1,5 +1,6 @@
 .searchButtonMicroservices button{
-    padding: 8px 30px;
+    width: 145px;
+    height: 35px;
     border: none;
     font: inherit;
     font-weight: 200;
