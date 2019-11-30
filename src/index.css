@@ -1,3 +1,7 @@
+@font-face {font-family: 'Roboto Light';src: local('Roboto Light'), local('RobotoLight-Regular'), url('./static/fonts/Roboto-Light.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Pragmatica Bold'; src: local('Pragmatica Bold'), local('PragmaticaBold-Regular'), url('./static/fonts/Pragmatica-Bold.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Pragmatica Cyrrilic'; src: local('Pragmatica Cyrrilic'), local('PragmaticaCyrrilic-Regular'), url('./static/fonts/Pragmatica-Cyrrilic.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Pragmatica Cyrrilic', sans-serif;
 }
 
 ol, ul {

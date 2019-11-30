@@ -153,7 +153,7 @@ const departments = [
   },
   {
     id: 'a87ff679a2f3e71d9181a67b7542122c',
-    name: 'Департамент бизнес-процесса',
+    name: 'Департамент бизнес-процессов',
     iconPath: iconPathToBusiness,
     microservices: [
       {
