@@ -1,8 +1,13 @@
 import React from 'react'
+import { store } from '../../store'
+import { Provider } from 'react-redux'
+import Departaments from '../departments'
 
-function App() {
+const App = () => {
   return (
-    <div>x5-microservices</div>
+    <Provider store={store}>
+        <Departaments />
+    </Provider>
   )
 }
 
