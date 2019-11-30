@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './search-microservices.module.css'
-import SearchFieldMicroservices from '../search-field-microservices'
-import SearchButtonMicroservices from '../search-button-microservices'
+import SearchFieldMicroservices from '../search-field-departments'
+import SearchButtonMicroservices from '../search-button-departments'
 
 const SearchMicroservices = () => {
     return (

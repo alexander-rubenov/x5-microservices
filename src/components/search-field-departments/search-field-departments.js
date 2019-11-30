@@ -1,8 +1,7 @@
 import React from 'react'
-import styles from './search-field-microservices.module.css'
+import styles from './search-field-departments.module.css'
 
-
-const SearchFieldMicroservices = () => {
+const SearchFieldDepartments = () => {
     return (
         <div className={styles.field}>
             <input type="text" placeholder="Поиск" />
@@ -10,4 +9,4 @@ const SearchFieldMicroservices = () => {
     )
 }
 
-export default SearchFieldMicroservices;
+export default SearchFieldDepartments
