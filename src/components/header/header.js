@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './header.module.css'
 import Logo from '../logo'
-import ButtonMicroserviceAdd from '../button-microservice-add'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <Logo />
-      <ButtonMicroserviceAdd />
+      <Link to='/add' className={styles.buttonToAdd}>Добавить +</Link>
     </header>
   )
 }

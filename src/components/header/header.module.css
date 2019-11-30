@@ -1,4 +1,7 @@
 .header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -6,4 +9,14 @@
     padding-bottom: 20px;
     align-items: center;
     z-index: 2;
+}
+
+.buttonToAdd {
+    padding: 8px 30px;
+    border: none;
+    font: inherit;
+    font-weight: 200;
+    color: #ffffff;
+    background-color: #f1813a;
+    cursor: pointer;
 }
