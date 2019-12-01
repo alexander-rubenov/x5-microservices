@@ -1,0 +1,212 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.information{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.develop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #83BF12;
+
+}
+
+.fin{
+    line-height: 3px;
+}
+
+.fin p{
+    font-size: 13px;
+}
+
+.develop p{
+    font-size: 15px;
+    margin-right: 4px;
+
+}
+
+.save{
+    text-decoration: none;
+    background-color: #FF8226;
+    color: #eeeeee;
+    padding: 5px 50px;
+}
+
+.txt{
+    width: 70%;
+}
+
+.meta{
+    text-decoration: none;
+    color: #eeeeee;
+    margin-right: 30px;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+.meta1{
+    background-color: #FF2121;
+}
+
+.meta2{
+    background-color: #520DBF;
+}
+
+.meta3{
+    background-color: #4D9B59;
+} 
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.financial{
+    width: 700px;
+    height: 370px;
+    background-color: #FFF;
+    border-left: 6px solid #FF8226 ;    
+}
+
+.finance{
+    margin-left: 5px;
+    line-height: 10px;
+}
+
+.blue{
+    border-radius: 15px;
+    width: 340px;
+    height: 30px;
+    background-color: #F5F9FF;
+    margin-bottom: 10px;
+    padding: 2px 2px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    box-shadow: 0px 5px rgba(0,0,0,0.1);;
+}
+.edit{
+    display: block;
+    text-decoration: none;
+    border: 1px solid #FF8226;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 120px;
+    text-align: center;
+    color: #000000;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color: #F7F7F7;
+}
+.related_microservices .menu{
+display: flex;
+}
+.related_microservices .menu div{
+width: 240px;
+height: 60px;
+text-align: center;
+}
+.related_microservices .menu .action{
+border-bottom: 6px solid #FF8226;
+}
+
+.microservice{
+width: 100%;
+margin: 20px 0;
+display: flex;
+height: 60px;
+background-color: #fff;
+}
+.microservice h4{
+font-weight: 100;
+font-size: 20px;
+margin: 0;
+}
+.microservice p{
+font-size: 12px;
+margin: 0;
+}
+.microservice .name{
+padding: 0 0 0 20px;
+width: 20%;
+}
+.microservice .name .status{
+color: #2812CC;
+}
+.microservice .tags{
+display: flex;
+width: 50%;
+}
+.microservice .tags button{
+margin: 10px 40px;
+}
+.microservice .button{
+display: flex;
+}
+.microservice .button a{
+display: block;
+margin: 20px 0 0 120px ;
+
+}
+.microservice .button svg{
+display: block;
+margin: 10px 0 10px 20px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .related_microservices , .changes table{
+    width: 1150px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    }
+    .changes h3{
+    margin: 4px 0 4px 10%;
+    }
+    .changes table tr{
+    height: 41px;
+    }
+    .changes table b{
+    margin: 0 10px;
+    }
+    tr:nth-child(2n+1) {
+    background-color:#E8E8E8;
+    }

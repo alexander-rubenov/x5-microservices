@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import Department from '../department'
 import styles from './departments.module.css'
 
-
 const Departments = (props) => {
   const { departments } = props
 
