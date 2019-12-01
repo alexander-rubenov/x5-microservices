@@ -1,0 +1,48 @@
+.titleForward {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.addMicroservice {
+    background: #f7f7f7; 
+    padding-bottom: 60px;  
+}
+
+.addBlock {
+    margin: 0 auto;
+    width: 800px;
+    background: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.navigate {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.navigate a {
+    display: block;
+    color: black;
+    padding: 15px 70px;
+}
+
+.navigate a.activeLink {
+    border-bottom: 4px solid orange; 
+}
+
+.content {
+    display: block;
+    margin: 0 auto;
+}
