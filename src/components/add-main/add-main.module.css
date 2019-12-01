@@ -1,0 +1,79 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blockName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    padding-top: 30px;
+}
+
+.blockName input {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 22px;
+    border: 1px solid #f1813a;
+}
+
+.blockDescription {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    padding-top: 20px;
+}
+
+.blockDescription input {
+    height: 60px;
+    width: 200px;
+    border: 1px solid #f1813a;
+}
+
+.func {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.func button {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    color: inherit;
+    background-color: red;
+    cursor: pointer;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    padding-top: 30px;
+}
+
+.status select {
+    width: 130px;
+    height: 24px;
+    border: 1px solid #f1813a;
+    background: white;
+}
+
+.version {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    padding-top: 20px;
+}
+
+.version input {
+    width: 130px;
+    height: 22px;
+    border: 1px solid #f1813a;
+}

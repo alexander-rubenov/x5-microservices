@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Logo />
-      <Link to='/add' className={styles.buttonToAdd}>Добавить +</Link>
+      <Link to='/main' className={styles.buttonToAdd}>Добавить +</Link>
     </header>
   )
 }
