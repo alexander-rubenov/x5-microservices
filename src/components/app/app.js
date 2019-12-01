@@ -8,8 +8,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <ContentWrapper /> */}
-      <AddMicroservice />
+      <ContentWrapper />
       <Footer />
     </div>
   )
