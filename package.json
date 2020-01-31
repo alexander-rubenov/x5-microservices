@@ -2,6 +2,7 @@
   "name": "x5-microservices",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://teamunite.ru/hackathon/",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
